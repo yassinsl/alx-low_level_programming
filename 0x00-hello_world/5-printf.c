@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
-*main-special fonction
-*Descpeption:Prints a message to the console
-*return:Always 0 (Success)  
+*This is the main function.
+*It returns an integer value to indicate the exit status.
+*Return 0 to indicate successful execution.
  **/
 int main (void){
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);}
+printf("with proper grammar, but the outcome is a piece of art,");
+return (0);
+}
