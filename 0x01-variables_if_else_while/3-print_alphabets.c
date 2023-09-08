@@ -8,8 +8,8 @@
 */
 int main(void)
 {
-putchar a = 'a';
-putchar A = 'A';
+char a = 'a';
+char A = 'A';
 /*synbole a - z*/
 while (a <= 'z')
 {
