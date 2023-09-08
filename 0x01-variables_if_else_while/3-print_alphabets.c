@@ -14,7 +14,7 @@ char A = 'A';
 while (a <= 'z')
 {
 putchar(a);
-a++
+a++;
 }
 /*symbole A - Z* */
 while (A <= 'Z')
