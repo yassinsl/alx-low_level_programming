@@ -1,0 +1,1 @@
+In C, variables allow you to store and manipulate data, if and else statements enable you to make decisions based on conditions, and while loops provide a way to repeatedly execute code as long as a certain condition is met.
