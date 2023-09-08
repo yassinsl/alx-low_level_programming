@@ -1,4 +1,4 @@
-#includes <stdio.h>
+#include <stdio.h>
 
 /**
 * main -entry point
@@ -12,7 +12,7 @@ int main(void)
 char a = 'a';
 while (a <= 'z')
 {
-if (a == e || a == q)
+if (a == 'e' || a == 'q')
 putchar(a);
 a++;
 }
