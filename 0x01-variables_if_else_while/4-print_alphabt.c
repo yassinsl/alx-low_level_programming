@@ -13,7 +13,7 @@ char a = 'a';
 while (a <= 'z')
 {
 if (a == 'e' || a == 'q')
-a++
+a++;
 putchar(a);
 a++;
 }
