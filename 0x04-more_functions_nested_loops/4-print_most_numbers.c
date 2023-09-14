@@ -5,19 +5,15 @@
  *
  * Return: void.
  */
-int main(void)
+void print_most_numbers(void)
 {
 	int i;
-	i = 0;
-	while (i <= 9)
+
+	for (i = 0; i <= 9; i++)
 	{
 		if (i == 2 || i == 4)
-		{
-			i++;
 			continue;
-		}
-		putchar(i + '0');
-		i++;
-		}
-		return 0;
+		_putchar(i + 48);
+	}
+	_putchar('\n');
 }
