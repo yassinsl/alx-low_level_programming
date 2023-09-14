@@ -5,19 +5,20 @@
  *
  * Return: void.
  */
-
-void print_most_numbers(void)
+int main(void)
 {
-	int a = 0;
+    int i;
+    i = 0;
+    while (i <= 9)
+    {
+        if (i == 2 || i == 4)
+        {
+            i++;
+            continue;
+        }
 
-	while (a < 10)
-	{
-	if (a == 2 || a == 4)
-	{
-		continue;
-	}
-	_putchar(a + '0');
-	a++;
-	}
-	_putchar('\n');
+        putchar(i + '0');
+        i++;
+    }
+    return 0;
 }
