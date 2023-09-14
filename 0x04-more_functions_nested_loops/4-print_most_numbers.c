@@ -7,18 +7,17 @@
  */
 int main(void)
 {
-    int i;
-    i = 0;
-    while (i <= 9)
-    {
-        if (i == 2 || i == 4)
-        {
-            i++;
-            continue;
-        }
-
-        putchar(i + '0');
-        i++;
-    }
-    return 0;
+	int i;
+	i = 0;
+	while (i <= 9)
+	{
+		if (i == 2 || i == 4)
+		{
+			i++;
+			continue;
+		}
+		putchar(i + '0');
+		i++;
+		}
+		return 0;
 }
