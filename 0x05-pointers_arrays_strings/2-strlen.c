@@ -9,9 +9,11 @@
 */
 int _strlen(char *s)
 {
-int i = 1;
+	int lenght = 0;
 
-for (; i <= strlen(s); i++)
-printf("%d", i);
-return (i);
+	while (s[lenght] != '\0')
+	{
+		lenght++;
+	}
+	return (lenght);
 }
