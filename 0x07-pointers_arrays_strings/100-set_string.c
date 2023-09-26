@@ -6,8 +6,8 @@
   * @to: the value to assign
   *
   * Return: Nothing.
-  */
+*/
 void set_string(char **s, char *to)
 {
-	*s = to;
+*s = to;
 }
