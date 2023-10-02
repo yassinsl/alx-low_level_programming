@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		puts("error");
+		printf("error\n");
 		return (1);
 	}
 	n1 = atoi(argv[1]);
