@@ -18,11 +18,14 @@ int main(int argc, char *argv[])
 		printf("error\n");
 		return (1);
 	}
+	else
+	{
 	while (i < argc)
 	{
 	result = result * atoi(argv[i]);
 	printf("%d\n", result);
 	i++;
+	}
 	}
 return (0);
 }
