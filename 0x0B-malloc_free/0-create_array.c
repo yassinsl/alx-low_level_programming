@@ -10,22 +10,19 @@
  *
  * Return: address of the memory or NULL if it fails
  */
+
 char *create_array(unsigned int size, char c)
 {
-int i;
-char *arr;
+	char *arr;
+	unsigned int i;
 
-i = 0;
-arr = malloc(size * sizeof(char));
-if (size == 0)
-return (NULL);
+	if (size == 0)
+		return (NULL);
+	arr = malloc(sizeof(char) * size);
+	if (arr == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+		arr[i] = c;
 
-if (arr == NULL)
-return (NULL);
-while (i < size)
-{
-arr[i] = c;
-i++;
-}
-return (arr);
+	return (arr);
 }
