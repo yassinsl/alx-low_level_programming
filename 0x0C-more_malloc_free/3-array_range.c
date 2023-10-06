@@ -1,35 +1,26 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grid - function that returns a pointer to a 2 dimensional array of int
- *
- * @width: width of the grid
- * @height: height of the grid
- *
- * Return: address of the newly allocated memory
+ * array_range - get len, malloc * len
+ * loop size of len to insert min++ into new arr
+ * @min: min input
+ * @max: max input
+ * Return: pointer to new arr of ints
  */
-int **alloc_grid(int width, int height)
+int *array_range(int min, int max)
 {
-	int i, j;
-	int **arr;
+	int *ptr;
+	int size, i;
 
-	if (width <= 0 || height <= 0)
+	if (min > max)
 		return (NULL);
-	arr = malloc(height * sizeof(int *));
-	if (arr == NULL)
-		return (NULL);
-	for (i = 0; i < height; i++)
-	{
-		arr[i] = malloc(width * sizeof(int));
-		if (arr[i] == NULL)
-		{
-			for (j = 0; j < i; j++)
-				free(arr[j]);
-			free(arr);
+	size = max - min + 1;
+	ptr = malloc(sizeof(int) * size);
+	if (ptr == NULL)
 			return (NULL);
-		}
-		for (j = 0; j < width; j++)
-			arr[i][j] = 0;
+	for (i = 0; i < size; i++)
+	{
+		ptr[i] = min++;
 	}
-	return (arr);
-}
+	return (ptr);
+
