@@ -86,9 +86,9 @@ int check_for_digits(char **av)
  * init - initializes a string
  * @str: sting to initialize
  * @l: length of strinf
- * author : yassin lahssini
+ * author : ilias elmahi
  * date : 10/07/2023
- * time : 11:48
+ * time : 11:29
  * Return: void
  */
 void init(char *str, int l)
