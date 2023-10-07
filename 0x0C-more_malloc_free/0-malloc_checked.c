@@ -11,7 +11,7 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int *yassin;
+	void *yassin;
 
 	yassin = malloc(b);
 	if (yassin == NULL)
