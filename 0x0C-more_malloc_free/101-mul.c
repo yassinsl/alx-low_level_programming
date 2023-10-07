@@ -86,7 +86,9 @@ int check_for_digits(char **av)
  * init - initializes a string
  * @str: sting to initialize
  * @l: length of strinf
- *
+ * author : ilias elmahi
+ * date : 10/07/2023
+ * time : 11:29
  * Return: void
  */
 void init(char *str, int l)
@@ -102,6 +104,7 @@ void init(char *str, int l)
  * main - multiply two numbers
  * @argc: number of arguments
  * @argv: argument vector
+ *
  * Return: zero, or exit status of 98 if failure
  */
 int main(int argc, char *argv[])
