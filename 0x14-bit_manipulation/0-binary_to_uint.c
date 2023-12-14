@@ -9,8 +9,10 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	 int i = 0, rem = 0;
-	unsigend int decemale = 0; 
+	unsigned int  decemale = 0;
+	int i, rem;
+	
+	i = 0;
 
 if (b[0] == '\0')
 	return (0);
