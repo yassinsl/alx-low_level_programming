@@ -9,24 +9,15 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int  decemale = 0;
-	int i, rem;
-	
-	i = 0;
+	unsigned int num = 0;
 
-if (b[0] == '\0')
-	return (0);
-
-while (b[i])
+	if (!b)
+		return (0);
+	while (*b)
 	{
-if (b[i] != '0' && b[i] != '1')
-return (0);
-		else
-		{	
-			rem = b[i] - '0';
-			decemale = decemale * 2 + rem;
-		}
-			i++;	
-		}
-	return (decemale);
+		if (*b != '0' && *b != '1')
+			return (0);
+		num = num * 2 + (*b++ - '0');
 	}
+	return (num);
+}
