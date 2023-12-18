@@ -30,8 +30,8 @@ int append_text_to_file(const char *filename, char *text_content)
 		yassin = write(fd, text_content, _strlen(text_content));
 		if(yassin == -1)
 		{
-			fclose(fp)
-			return(-1)
+			fclose(fp);
+			return(-1);
 		}
 	 }
 fclose(fp);
