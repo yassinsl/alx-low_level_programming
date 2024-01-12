@@ -5,7 +5,7 @@ USERNAME="your_username"
 REPO_NAME="your_repository"
 
 # Create 33 files
-for i in {1..62}
+for i in {1..64}
 do
     touch "file${i}.c"
     echo "// This is file ${i}" >> "file${i}.c"
