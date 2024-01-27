@@ -3,7 +3,7 @@
 
 
 
-![C pro](https://imagizer.imageshack.com/v2/320x240q70/923/gnXEKY.png)
+![C pro](https://images.app.goo.gl/dEY3EYjJZsmxqgh58.png)
 
 ## Welcome
 Thank you for visiting my **C programming** projects learnt during my software engineering program with ALX.
