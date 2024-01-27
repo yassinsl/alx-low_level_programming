@@ -89,5 +89,8 @@ If you like how i present and document my work  do me a favor of giving a **Star
 YASSINE LAHSSINI 👻
 - GitHub: [yassinsl](https://github.com/yassinsl)
 
-
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+<p align="center">
+  <img src="http://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png"
+    alt="ALX Africa Logo"
+  >
+  </p>
